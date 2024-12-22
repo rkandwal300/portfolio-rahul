@@ -1,4 +1,5 @@
 import { LucideBot } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import { Button } from '../ui/button';
 import { ThemeToggle } from './ThemeToggle';
 
@@ -8,22 +9,16 @@ export default function Header() {
       <nav className="flex justify-between items-center">
         <ul className="flex gap-4 sm:gap-8 font-sans">
           <li className="text-muted-foreground hover:text-foreground">
-            <a href="/">home</a>
+            <Link to="/">home</Link>
           </li>
           <li className="text-muted-foreground hover:text-foreground">
-            <a className="tracking-wider" href="/projects">
-              projects
-            </a>
+            <Link to="/projects">projects</Link>
           </li>
           <li className="text-muted-foreground hover:text-foreground">
-            <a className="tracking-wider" href="/blog">
-              blog
-            </a>
+            <Link to="/blog">blog</Link>
           </li>
           <li className="text-muted-foreground hover:text-foreground">
-            <a className="tracking-wider" href="/contact">
-              contact
-            </a>
+            <Link to="/contact">contact</Link>
           </li>
         </ul>
         <div className="flex gap-0 sm:gap-4">

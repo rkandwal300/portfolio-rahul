@@ -1,4 +1,4 @@
-import { workExperience } from '../../lib/data';
+import { workExperience } from '../../../lib/data';
 import AboutItems from './AboutItems';
 
 export default function Work() {

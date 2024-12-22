@@ -1,4 +1,4 @@
-import { About, Project } from './types';
+import { About, Post, Project } from './types';
 
 export const experiences: About[] = [
   {
@@ -208,5 +208,40 @@ export const projects: Project[] = [
     ],
     image: 'path/to/tradingview-alerts-image.png',
     link: 'https://github.com/username/project',
+  },
+];
+
+export const posts: Post[] = [
+  {
+    id: 'post-title1',
+    title: 'Post Title',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus ut nunc ultrices tincidunt. Nulla facilisi. Donec euismod, nunc ac gravida ultricies, sapien nunc ultricies nunc, nec ultricies nunc nunc nec nunc. Nulla facilisi. Donec euismod, nunc ac gravida ultricies, sapien nunc ultricies nunc, nec ultricies nunc nunc nec nunc.',
+    date: '2023-09-01',
+    link: '/blog/post-title1',
+  },
+  {
+    id: 'post-title2',
+    title: 'Post Title',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus ut nunc ultrices tincidunt. Nulla facilisi. Donec euismod, nunc ac gravida ultricies, sapien nunc ultricies nunc, nec ultricies nunc nunc nec nunc. Nulla facilisi. Donec euismod, nunc ac gravida ultricies, sapien nunc ultricies nunc, nec ultricies nunc nunc nec nunc.',
+    date: '2023-09-01',
+    link: '/blog/post-title2',
+  },
+  {
+    id: 'post-title3',
+    title: 'Post Title',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus ut nunc ultrices tincidunt. Nulla facilisi. Donec euismod, nunc ac gravida ultricies, sapien nunc ultricies nunc, nec ultricies nunc nunc nec nunc. Nulla facilisi. Donec euismod, nunc ac gravida ultricies, sapien nunc ultricies nunc, nec ultricies nunc nunc nec nunc.',
+    date: '2023-09-01',
+    link: '/blog/post-titl3',
+  },
+  {
+    id: 'post-title4',
+    title: 'Post Title',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus ut nunc ultrices tincidunt. Nulla facilisi. Donec euismod, nunc ac gravida ultricies, sapien nunc ultricies nunc, nec ultricies nunc nunc nec nunc. Nulla facilisi. Donec euismod, nunc ac gravida ultricies, sapien nunc ultricies nunc, nec ultricies nunc nunc nec nunc.',
+    date: '2023-09-01',
+    link: '/blog/post-title4',
   },
 ];

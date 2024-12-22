@@ -1,4 +1,4 @@
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '../ui/tabs';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '../../ui/tabs';
 import Education from './Education';
 import Work from './Work';
 

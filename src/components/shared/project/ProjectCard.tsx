@@ -1,8 +1,8 @@
 import { ExternalLink, Github } from 'lucide-react';
-import { Project } from '../../lib/types';
-import { Badge } from '../ui/badge';
-import { Button } from '../ui/button';
-import { Card, CardContent, CardDescription, CardHeader } from '../ui/card';
+import { Project } from '../../../lib/types';
+import { Badge } from '../../ui/badge';
+import { Button } from '../../ui/button';
+import { Card, CardContent, CardDescription, CardHeader } from '../../ui/card';
 
 export default function ProjectCard({ data }: { readonly data: Project }) {
   return (

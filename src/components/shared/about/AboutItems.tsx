@@ -1,8 +1,8 @@
 import { AvatarFallback } from '@radix-ui/react-avatar';
 import { Globe } from 'lucide-react';
-import { About } from '../../lib/types';
-import { Avatar, AvatarImage } from '../ui/avatar';
-import { Badge } from '../ui/badge';
+import { About } from '../../../lib/types';
+import { Avatar, AvatarImage } from '../../ui/avatar';
+import { Badge } from '../../ui/badge';
 
 export default function AboutItems({ data }: { readonly data: About }) {
   return (

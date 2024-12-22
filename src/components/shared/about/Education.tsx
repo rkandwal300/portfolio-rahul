@@ -1,4 +1,4 @@
-import { experiences } from '../../lib/data';
+import { experiences } from '../../../lib/data';
 import AboutItems from './AboutItems';
 
 export default function Education() {

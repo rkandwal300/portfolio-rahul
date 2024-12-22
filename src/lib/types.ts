@@ -16,3 +16,11 @@ export type About = {
   logo?: string;
   link?: string;
 };
+
+export type Post = {
+  id: string;
+  title: string;
+  description: string;
+  link: string;
+  date: string;
+};
