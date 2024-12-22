@@ -29,7 +29,7 @@ export default function Hero() {
           </p>
           <p className="font-inter mt-2 font-light text-start">
             I like to develop full-stack, drink instant coffee and get coding
-            advice from my dog,{' '}
+            advice from my cat,{' '}
             <a
               className="text-muted-foreground hover:text-foreground font-semibold"
               href="https://www.instagram.com/gomugomu.cat/"
