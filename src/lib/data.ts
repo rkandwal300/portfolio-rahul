@@ -24,7 +24,7 @@ export const workExperience: About[] = [
   {
     duration: 'Aug 2023 - Present (12.5 months)',
     organization: 'Vyapardost',
-    role: 'Full Stack Web Intern',
+    role: 'Junior Full Stack Web Developer',
     description: [
       'Played a key role in developing a digital procurement platform aimed at streamlining the procurement process for organizations.',
       'Built the frontend UI using Next.js and integrated it with a Nest.js backend, ensuring a seamless and intuitive user experience.',
@@ -47,7 +47,7 @@ export const workExperience: About[] = [
     link: 'https://www.vyapardost.com/',
   },
   {
-    duration: 'Apr 2023 - Aug 2023 (5 months)',
+    duration: 'June 2023 - Aug 2023 (3 months)',
     organization: 'Bixlash',
     role: 'Full Stack Developer',
     description: [

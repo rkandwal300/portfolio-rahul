@@ -101,6 +101,7 @@
   body {
     @apply mx-auto bg-background text-foreground flex min-h-screen max-w-3xl flex-col px-8 font-sans;
   }
-
- 
+  .title {
+    @apply font-calistoga font-normal text-xl tracking-wide;
+  }
 }

@@ -22,10 +22,10 @@ export default function AboutItems({ data }: { readonly data: About }) {
           </time>
           <h2 className="font-semibold leading-none">{data.organization}</h2>
           <p>{data.role}</p>
-          <ul className="ml-4 list-outside list-disc">
+          <ul className="ml-4 list-outside list-disc ">
             {data.description.map((desc, index) => (
               <li
-                className="prose pr-8 text-sm dark:prose-invert"
+                className="prose pr-8 text-sm dark:prose-invert text-muted-foreground"
                 key={'d' + index}
               >
                 {desc}

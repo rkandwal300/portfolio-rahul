@@ -1,11 +1,11 @@
 import { LucideBot } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Button } from '../ui/button';
-import { ThemeToggle } from './ThemeToggle';
+import { ThemeToggle } from './themes/ThemeToggle';
 
 export default function Header() {
   return (
-    <div className="sticky top-0 z-50 bg-background/75 py-6 backdrop-blur-sm">
+    <header className="sticky top-0 z-50 bg-background/75 py-6 backdrop-blur-sm">
       <nav className="flex justify-between items-center">
         <ul className="flex gap-4 sm:gap-8 font-sans">
           <li className="text-muted-foreground hover:text-foreground">
@@ -28,6 +28,6 @@ export default function Header() {
           <ThemeToggle />
         </div>
       </nav>
-    </div>
+    </header>
   );
 }

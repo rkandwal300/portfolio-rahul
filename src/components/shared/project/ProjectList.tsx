@@ -2,12 +2,15 @@ import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { projects } from '../../../lib/data';
 import ProjectCard from './ProjectCard';
+import { cn } from '../../../lib/utils';
 
 export default function ProjectList({ length }: { readonly length?: number }) {
   return (
     <section className="flex flex-col gap-8 py-6">
       <div className="flex justify-between items-center">
-        <h2 className="text-2xl font-bold font-calistoga">featured projects</h2>
+        <h2 className={cn('font-calistoga', length ? 'text-2xl' : 'text-5xl')}>
+          featured projects
+        </h2>
         <Link
           to="/projects"
           className="text-muted-foreground hover:text-foreground flex items-center gap-2 font-light"

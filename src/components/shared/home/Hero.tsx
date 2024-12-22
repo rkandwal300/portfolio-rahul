@@ -13,7 +13,7 @@ export default function Hero() {
     <section className="mt-8 flex flex-col">
       <div className="flex flex-col items-start gap-8 md:flex-row-reverse md:items-center md:justify-center">
         <img
-          src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-3763188.jpg&fm=jpg"
+          src="/rahul_pic.heif"
           alt="rahul smiling"
           fetchPriority="high"
           width={175}

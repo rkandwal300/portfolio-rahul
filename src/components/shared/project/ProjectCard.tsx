@@ -31,18 +31,12 @@ export default function ProjectCard({ data }: { readonly data: Project }) {
         </div>
         <div className="flex flex-wrap justify-between items-start w-full gap-4">
           <a href={data.githubLink} target="_blank" rel="noopener noreferrer">
-            <Button
-              size="sm"
-              className="bg-foreground hover:bg-accent-foreground text-background text-[10px] font-semibold"
-            >
+            <Button size="sm">
               <Github size={10} /> <span>Source</span>
             </Button>
           </a>
           <a href={data.link} target="_blank" rel="noopener noreferrer">
-            <Button
-              size="sm"
-              className="bg-foreground hover:bg-accent-foreground text-background text-[10px] font-semibold"
-            >
+            <Button size="sm">
               <ExternalLink size={10} /> <span>Link</span>
             </Button>
           </a>

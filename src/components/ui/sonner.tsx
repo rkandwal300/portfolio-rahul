@@ -1,5 +1,5 @@
 import { Toaster as Sonner } from 'sonner';
-import { Theme, useTheme } from '../shared/ThemeProvider';
+import { Theme, useTheme } from '../shared/themes/ThemeProvider';
 
 type ToasterProps = React.ComponentProps<typeof Sonner>;
 

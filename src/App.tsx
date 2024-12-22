@@ -1,8 +1,11 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import PostDetail from './components/shared/blog/PostDetail';
 import PostsList from './components/shared/blog/PostsList';
+import Contact from './components/shared/contact/Contact';
+import Footer from './components/shared/Footer';
 import Header from './components/shared/Header';
 import Home from './components/shared/home/Home';
+import Privacy from './components/shared/Privacy';
 import ProjectList from './components/shared/project/ProjectList';
 
 function App() {
@@ -12,6 +15,7 @@ function App() {
       element: (
         <>
           <Header /> <Home />
+          <Footer />
         </>
       ),
     },
@@ -19,8 +23,8 @@ function App() {
       path: '/projects',
       element: (
         <>
-          {' '}
           <Header /> <ProjectList />
+          <Footer />
         </>
       ),
     },
@@ -30,6 +34,7 @@ function App() {
         <>
           <Header />
           <PostsList />
+          <Footer />
         </>
       ),
     },
@@ -39,6 +44,7 @@ function App() {
         <>
           <Header />
           <PostDetail />
+          <Footer />
         </>
       ),
     },
@@ -47,7 +53,18 @@ function App() {
       element: (
         <>
           <Header />
-          <ProjectList />
+          <Contact />
+          <Footer />
+        </>
+      ),
+    },
+    {
+      path: '/privacy',
+      element: (
+        <>
+          <Header />
+          <Privacy />
+          <Footer />
         </>
       ),
     },
