@@ -1,7 +1,7 @@
-import About from './about/About';
-import PostsList from './blog/PostsList';
+import About from '../about/About';
+import PostsList from '../blog/PostsList';
+import ProjectList from '../project/ProjectList';
 import Hero from './Hero';
-import ProjectList from './project/ProjectList';
 
 export default function Home() {
   return (

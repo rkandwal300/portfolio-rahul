@@ -2,7 +2,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import PostDetail from './components/shared/blog/PostDetail';
 import PostsList from './components/shared/blog/PostsList';
 import Header from './components/shared/Header';
-import Home from './components/shared/Home';
+import Home from './components/shared/home/Home';
 import ProjectList from './components/shared/project/ProjectList';
 
 function App() {

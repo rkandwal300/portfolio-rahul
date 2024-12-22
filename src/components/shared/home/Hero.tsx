@@ -1,12 +1,12 @@
 import { ArrowDownRight, FileDown, Github, Linkedin, Mail } from 'lucide-react';
-import { cn } from '../../lib/utils';
-import { buttonVariants } from '../ui/button';
+import { cn } from '../../../lib/utils';
+import { buttonVariants } from '../../ui/button';
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from '../ui/tooltip';
+} from '../../ui/tooltip';
 
 export default function Hero() {
   return (
