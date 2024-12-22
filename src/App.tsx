@@ -1,10 +1,11 @@
-import './App.css';
-import { ThemeToggle } from './components/shared/ThemeToggle';
+import Header from './components/shared/Header';
+import Home from './components/shared/Home';
 
 function App() {
   return (
-    <section className="bg-background flex flex-1 ">
-      <ThemeToggle />
+    <section className="max-w-3xl px=-8 mx-auto min-h-screen font-sans w-full  grow antialiased __variable_36bd41 __variable_33d430">
+      <Header />
+      <Home />
     </section>
   );
 }
