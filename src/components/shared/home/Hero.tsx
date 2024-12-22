@@ -24,7 +24,7 @@ export default function Hero() {
         <div className="flex flex-col justify-start items-start">
           <h1 className="font-calistoga text-5xl">hi rahul here 👋</h1>
           <p className="font-inter mt-4 font-light text-start">
-            27-year-old <s>game</s> software developer from India{' '}
+            23-year-old <s>game</s> software developer from India{' '}
             <span className=" text-[10px] font-medium">IN</span>.
           </p>
           <p className="font-inter mt-2 font-light text-start">
