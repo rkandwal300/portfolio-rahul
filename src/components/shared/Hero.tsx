@@ -8,7 +8,7 @@ import {
   TooltipTrigger,
 } from '../ui/tooltip';
 
-export default function HeroSection() {
+export default function Hero() {
   return (
     <section className="mt-8 flex flex-col">
       <div className="flex flex-col items-start gap-8 md:flex-row-reverse md:items-center md:justify-center">
