@@ -1,6 +1,7 @@
 import { ArrowLeft } from 'lucide-react';
 import { Link, useParams } from 'react-router-dom';
 import { posts } from '../../../lib/data';
+import { cn } from '../../../lib/utils';
 
 export default function PostDetail() {
   const params = useParams();
@@ -31,6 +32,15 @@ export default function PostDetail() {
             color: 'transparent',
           }}
         />
+      </div>
+      <div className="flex flex-col">
+        <h2 className={cn('font-calistoga', length ? 'text-2xl' : 'text-5xl')}>
+          {singleBlog?.title}
+        </h2>
+        <p className="text-xs mt-1.5">{singleBlog?.date}</p>
+        <p className="text-sm text-muted-foreground mt-4">
+          {singleBlog?.description}
+        </p>
       </div>
     </section>
   );
