@@ -23,7 +23,7 @@ export default function PostsList({ length }: { readonly length?: number }) {
       <ul className="flex flex-col border rounded-xl">
         {posts.slice(0, length ?? posts.length).map((post, index) => (
           <>
-            <PostItem key={post.id} data={post} />
+            <PostItem key={post.id + index} data={post} />
             {(length ?? posts.length) - 1 > index && (
               <Separator className="my-4 border w-full" />
             )}

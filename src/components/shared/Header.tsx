@@ -1,7 +1,6 @@
-import { LucideBot } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { Button } from '../ui/button';
 import { ThemeToggle } from './themes/ThemeToggle';
+import ChatTrigger from './chatbot/trigger';
 
 export default function Header() {
   return (
@@ -22,9 +21,7 @@ export default function Header() {
           </li>
         </ul>
         <div className="flex gap-0 sm:gap-4">
-          <Button variant={'ghost'} size={'sm'}>
-            <LucideBot className="w-6 h-6 text-foreground" />
-          </Button>
+          <ChatTrigger />
           <ThemeToggle />
         </div>
       </nav>
