@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { ThemeToggle } from './themes/ThemeToggle';
-import ChatTrigger from './chatbot/trigger';
+import ChatTrigger from './chatbot/Trigger';
 
 export default function Header() {
   return (
