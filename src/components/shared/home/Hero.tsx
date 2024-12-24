@@ -23,19 +23,27 @@ export default function Hero() {
         />
         <div className="flex flex-col justify-start items-start">
           <h1 className="font-calistoga text-5xl">hi rahul here 👋</h1>
-          <p className="font-inter mt-4 font-light text-start">
-            23-year-old <s>game</s> software developer from India{' '}
-            <span className=" text-[10px] font-medium">IN</span>.
+          <p className="flex-nowrap flex gap-1 items-center font-inter mt-4 font-light text-start">
+            23-year-old <s>game</s> software developer from India
+            <span>
+              <img
+                src="/india_flag.png"
+                alt="india flag"
+                height="20"
+                width="20"
+              />
+            </span>
+            .
           </p>
           <p className="font-inter mt-2 font-light text-start">
-            I like to develop full-stack, drink instant coffee and get coding
-            advice from my cat,{' '}
-            <a
+            I like to develop full-stack, drink instant coffee and solve real
+            problems with code.
+            {/* <a
               className="text-muted-foreground hover:text-foreground font-semibold"
               href="https://www.instagram.com/gomugomu.cat/"
               target="_blank"
               children=" Luffy."
-            />
+            /> */}
           </p>
           <div className="mt-4 flex items-end gap-1">
             <p className="font-semibold">Ask the chatbot anything about me</p>
