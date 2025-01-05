@@ -23,17 +23,8 @@ export default function Hero() {
         />
         <div className="flex flex-col justify-start items-start">
           <h1 className="font-calistoga text-5xl">hi rahul here 👋</h1>
-          <p className="flex-nowrap flex gap-1 items-center font-inter mt-4 font-light text-start">
-            23-year-old <s>game</s> software developer from India
-            <span>
-              <img
-                src="/india_flag.png"
-                alt="india flag"
-                height="20"
-                width="20"
-              />
-            </span>
-            .
+          <p className="flex font-inter mt-4 font-light text-start">
+            23-year-old software developer from India
           </p>
           <p className="font-inter mt-2 font-light text-start">
             I like to develop full-stack, drink instant coffee and solve real
